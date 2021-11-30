@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<body>
+    <div class="mainBox light">
+        <div class="clockBox">
+            <div class="hr"></div>
+            <div class="min"></div>
+            <div class="sec"></div>
+            <div class="med">am</div>
+        </div>
+        <div class="digitalHours">
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+        </div>
+        <div class="info">
+            <div class="basic">
+                <span class="city">Malaysia</span>
+                <span class="date">Sunday</span>
+            </div>
+            <button class="mode">
+                <i class="bi bi-brightness-high-fill" id="toggleDark"></i> 
+            </button>
+        </div>
+    </div>
+</body>
+</html>
